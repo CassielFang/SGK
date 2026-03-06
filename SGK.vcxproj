@@ -220,11 +220,17 @@
     <ClInclude Include="src\WindowCreator.impl.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
     <None Include="cpp.hint" />
+    <None Include="README.md" />
     <None Include="shader\fragShader.glsl" />
     <None Include="shader\fShader.glsl" />
     <None Include="shader\vertShader.glsl" />
     <None Include="shader\vShader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
