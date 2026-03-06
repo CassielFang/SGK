@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{bcf95756-256a-42b1-b4ee-37790e408d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{a5dccb7c-d678-4c99-a7f4-2ce949947c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Base">
+      <UniqueIdentifier>{d37f87cf-97ff-4f26-b4e1-4a3065fb1790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Window">
+      <UniqueIdentifier>{dfaed361-6f97-4e47-b523-1537653c64f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\glad">
+      <UniqueIdentifier>{669c55ef-e20b-4ab4-bd4e-679197900be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Base">
+      <UniqueIdentifier>{4b2e5e84-5b6e-41b9-8cd7-35d88f59938e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Window">
+      <UniqueIdentifier>{35da47a8-14f3-4dc1-bacc-b06912e0f7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Graphics">
+      <UniqueIdentifier>{9856616b-d94e-4966-916b-7679f8e26317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphics">
+      <UniqueIdentifier>{d19c9c92-e5ed-4740-afb3-f4b2f4554094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Math">
+      <UniqueIdentifier>{9722d0f5-2ba0-4b9e-8ee8-9a8972c24eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Threading">
+      <UniqueIdentifier>{de9edddc-c5f8-4302-b2e7-272f75f144df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Threading">
+      <UniqueIdentifier>{2f5f1f0a-e8f4-4d36-aa7d-53912407a29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\FileGovernor">
+      <UniqueIdentifier>{092b0d6c-2adf-44c2-ac2f-49920e16b168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\FileGovernor">
+      <UniqueIdentifier>{85b75588-0bce-44ed-96b1-93a5776fde55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{2dc09013-2957-4835-8d20-078df76f5cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Input">
+      <UniqueIdentifier>{086442a1-4d04-4eff-916c-81998a6237cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Input">
+      <UniqueIdentifier>{723a9c78-d9a3-43d5-bddd-9aec91d58b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{fd7bfc16-4ce1-43ac-8294-d9c3a100d16b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Framework.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>src\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BasicDefinitions.cpp">
+      <Filter>src\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImplDefinitions.cpp">
+      <Filter>src\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SGKWindow.impl.cpp">
+      <Filter>src\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowCreator.impl.cpp">
+      <Filter>src\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SGKWindow.cpp">
+      <Filter>src\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowCreator.cpp">
+      <Filter>src\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DebugOut.cpp">
+      <Filter>src\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Thread.impl.cpp">
+      <Filter>src\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Thread.cpp">
+      <Filter>src\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mutex.impl.cpp">
+      <Filter>src\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mutex.cpp">
+      <Filter>src\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\File.cpp">
+      <Filter>src\FileGovernor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileIO.impl.cpp">
+      <Filter>src\FileGovernor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileIO.cpp">
+      <Filter>src\FileGovernor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.impl.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VertexBuffer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsCore.impl.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsCore.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Keyboard.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyBoard.impl.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.impl.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IndexBuffer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SGK\Base\BasicDefinitions.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Window\WindowCreator.h">
+      <Filter>include\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glad.h">
+      <Filter>src\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImplDefinitions.h">
+      <Filter>src\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\khrplatform.h">
+      <Filter>src\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SGKWindow.impl.h">
+      <Filter>src\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WindowCreator.impl.h">
+      <Filter>src\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\charter.Window.h">
+      <Filter>src\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Base\DebugOut.h">
+      <Filter>include\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Window\GraphicWindow.h">
+      <Filter>include\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Window\DebugWindow.h">
+      <Filter>include\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Math\Util.h">
+      <Filter>include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Math\vector.h">
+      <Filter>include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Math\matrix.h">
+      <Filter>include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Threading\Thread.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Thread.impl.h">
+      <Filter>src\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Threading\Mutex.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mutex.impl.h">
+      <Filter>src\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\FileGovernor\File.h">
+      <Filter>include\FileGovernor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\FileGovernor\FileIO.h">
+      <Filter>include\FileGovernor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileIO.impl.h">
+      <Filter>src\FileGovernor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Graphics\Shader.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.impl.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Graphics\VertexBuffer.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Graphics\IndexBuffer.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Graphics\Core.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Graphics\Texture.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsCore.impl.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Framework.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\SGKits.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Input\Keyboard.h">
+      <Filter>include\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Keyboard.impl.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SGK\Input\Manager.h">
+      <Filter>include\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\charter.Input.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputManager.impl.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="shader\fragShader.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\vertShader.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\fShader.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\vShader.glsl">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
